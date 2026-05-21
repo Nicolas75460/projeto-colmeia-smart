@@ -1,0 +1,71 @@
+main {
+    background-color: #fff;
+    width: 100%;
+}
+
+main h1 {
+    color: black;
+}
+
+.devices-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.devices-container h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.devices-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.device-card {
+  background: #F3F4F6;
+  color: black;
+  border-radius: 1rem;
+  padding: 1.5rem;  
+  width: 280px;
+  box-shadow: 0 4px 10px #D1D5DB;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.device-card:hover {
+  transform: translateY(-5px);
+}
+
+.device-image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.device-btn {
+  background-color: #0070f3;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.2s;
+}
+
+.device-btn:hover {
+  background-color: #005bd1;
+}
+
+.online {
+  color: green;
+  font-weight: bold;
+}
+
+.offline {
+  color: red;
+  font-weight: bold;
+}
